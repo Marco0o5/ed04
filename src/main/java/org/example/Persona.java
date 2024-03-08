@@ -3,17 +3,17 @@ package org.example;
 import java.util.ArrayList;
 import java.util.List;
 /** CLASE CONTACTO
- * @see Contacto
+ * @see Persona
  * @author Marco
  * @since 08/03/2024
  * @version 89
  *
  */
-class Contacto {
+class Persona {
     private String name;
     private List<String> phones;
 
-    public Contacto(String name, String phone) {
+    public Persona(String name, String phone) {
         this.setName(name);
         this.setPhones(new ArrayList<>());
         this.getPhones().add(phone);
